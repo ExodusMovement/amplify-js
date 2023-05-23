@@ -38,7 +38,6 @@ const packageFolderMap = {
 	interactions: '@aws-amplify/interactions',
 	pubsub: '@aws-amplify/pubsub',
 	pushnotification: '@aws-amplify/pushnotification',
-	storage: '@aws-amplify/storage',
 };
 
 const folders = Object.keys(packageFolderMap);

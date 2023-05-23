@@ -30,8 +30,6 @@ const auth_externals = [
 
 const cache_externals = ['@aws-amplify/core'];
 
-const storage_externals = ['@aws-amplify/core', 'aws-sdk/clients/s3'];
-
 const interactions_externals = [
 	'aws-sdk/clients/lexruntime',
 	'@aws-amplify/core',
@@ -56,7 +54,6 @@ const amplify_externals = [
 	'@aws-amplify/core',
 	'@aws-amplify/interactions',
 	'@aws-amplify/pubsub',
-	'@aws-amplify/storage',
 	'@aws-amplify/xr',
 ];
 
@@ -66,7 +63,6 @@ const aws_amplify_react = [
 	'@aws-amplify/api',
 	'@aws-amplify/core',
 	'@aws-amplify/interactions',
-	'@aws-amplify/storage',
 	'@aws-amplify/xr',
 	'react',
 	'regenerator-runtime/runtime',
@@ -83,7 +79,6 @@ const rollup_externals = {
 	'@aws-amplify/core': core_externals,
 	'@aws-amplify/interactions': interactions_externals,
 	'@aws-amplify/pubsub': pubsub_externals,
-	'@aws-amplify/storage': storage_externals,
 	'@aws-amplify/xr': xr_externals,
 };
 
