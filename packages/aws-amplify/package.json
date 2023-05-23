@@ -48,7 +48,6 @@
     "@aws-amplify/datastore": "4.3.0",
     "@aws-amplify/interactions": "5.0.32",
     "@aws-amplify/notifications": "1.1.6",
-    "@aws-amplify/predictions": "5.1.6",
     "@aws-amplify/pubsub": "5.1.15",
     "@aws-amplify/storage": "5.2.6",
     "tslib": "^2.0.0"
