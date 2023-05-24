@@ -11,10 +11,6 @@ const analytics_externals = [
 
 const api_externals = [
 	'axios',
-	'graphql',
-	'graphql/language/ast',
-	'graphql/language/parser',
-	'graphql/language/printer',
 	'uuid',
 	'zen-observable',
 	'@aws-amplify/cache',

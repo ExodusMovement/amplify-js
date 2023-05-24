@@ -4,24 +4,15 @@ import { Auth } from '@aws-amplify/auth';
 import { Cache } from '@aws-amplify/cache';
 import { RestAPIClass } from '@aws-amplify/api-rest';
 import {
-	GraphQLAPIClass,
-	GraphQLOptions,
-	GraphQLResult,
-	GraphQLOperation,
-	OperationTypeNode,
-} from '@aws-amplify/api-graphql';
-import {
 	Amplify,
 	ConsoleLogger as Logger,
 	Credentials,
 } from '@aws-amplify/core';
-import Observable from 'zen-observable-ts';
-import { GraphQLQuery, GraphQLSubscription } from './types';
 
 const logger = new Logger('API');
 /**
  * @deprecated
- * Use RestApi or GraphQLAPI to reduce your application bundle size
+ * Use RestApi to reduce your application bundle size
  * Export Cloud Logic APIs
  */
 export class APIClass {
@@ -31,7 +22,6 @@ export class APIClass {
 	 */
 	private _options;
 	private _restApi: RestAPIClass;
-	private _graphqlApi: GraphQLAPIClass;
 
 	Auth = Auth;
 	Cache = Cache;
@@ -44,7 +34,6 @@ export class APIClass {
 	constructor(options) {
 		this._options = options;
 		this._restApi = new RestAPIClass(options);
-		this._graphqlApi = new GraphQLAPIClass(options);
 		logger.debug('API Options', this._options);
 	}
 
@@ -63,14 +52,9 @@ export class APIClass {
 		// Share Amplify instance with client for SSR
 		this._restApi.Credentials = this.Credentials;
 
-		this._graphqlApi.Auth = this.Auth;
-		this._graphqlApi.Cache = this.Cache;
-		this._graphqlApi.Credentials = this.Credentials;
-
 		const restAPIConfig = this._restApi.configure(this._options);
-		const graphQLAPIConfig = this._graphqlApi.configure(this._options);
 
-		return { ...restAPIConfig, ...graphQLAPIConfig };
+		return { ...restAPIConfig };
 	}
 
 	/**
@@ -172,7 +156,7 @@ export class APIClass {
 		return this._restApi.isCancel(error);
 	}
 	/**
-	 * Cancels an inflight request for either a GraphQL request or a Rest API request.
+	 * Cancels an inflight request for a Rest API request.
 	 * @param request - request to cancel
 	 * @param [message] - custom error message
 	 * @return If the request was cancelled
@@ -180,8 +164,6 @@ export class APIClass {
 	cancel(request: Promise<any>, message?: string): boolean {
 		if (this._restApi.hasCancelToken(request)) {
 			return this._restApi.cancel(request, message);
-		} else if (this._graphqlApi.hasCancelToken(request)) {
-			return this._graphqlApi.cancel(request, message);
 		}
 		return false;
 	}
@@ -193,39 +175,6 @@ export class APIClass {
 	 */
 	async endpoint(apiName: string): Promise<string> {
 		return this._restApi.endpoint(apiName);
-	}
-
-	/**
-	 * to get the operation type
-	 * @param operation
-	 */
-	getGraphqlOperationType(operation: GraphQLOperation): OperationTypeNode {
-		return this._graphqlApi.getGraphqlOperationType(operation);
-	}
-
-	/**
-	 * Executes a GraphQL operation
-	 *
-	 * @param options - GraphQL Options
-	 * @param [additionalHeaders] - headers to merge in after any `graphql_headers` set in the config
-	 * @returns An Observable if queryType is 'subscription', else a promise of the graphql result from the query.
-	 */
-	graphql<T>(
-		options: GraphQLOptions,
-		additionalHeaders?: { [key: string]: string }
-	): T extends GraphQLQuery<T>
-		? Promise<GraphQLResult<T>>
-		: T extends GraphQLSubscription<T>
-		? Observable<{
-				provider: any;
-				value: GraphQLResult<T>;
-		  }>
-		: Promise<GraphQLResult<any>> | Observable<object>;
-	graphql<T = any>(
-		options: GraphQLOptions,
-		additionalHeaders?: { [key: string]: string }
-	): Promise<GraphQLResult<any>> | Observable<object> {
-		return this._graphqlApi.graphql(options, additionalHeaders);
 	}
 }
 
