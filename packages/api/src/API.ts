@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0
 import { Auth } from '@aws-amplify/auth';
 import { Cache } from '@aws-amplify/cache';
-import { AWSAppSyncRealTimeProvider } from '@aws-amplify/pubsub';
 import { RestAPIClass } from '@aws-amplify/api-rest';
 import {
 	GraphQLAPIClass,
@@ -218,7 +217,7 @@ export class APIClass {
 		? Promise<GraphQLResult<T>>
 		: T extends GraphQLSubscription<T>
 		? Observable<{
-				provider: AWSAppSyncRealTimeProvider;
+				provider: any;
 				value: GraphQLResult<T>;
 		  }>
 		: Promise<GraphQLResult<any>> | Observable<object>;

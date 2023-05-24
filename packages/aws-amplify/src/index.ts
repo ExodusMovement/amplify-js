@@ -12,14 +12,6 @@ export {
 } from '@aws-amplify/analytics';
 export { Auth } from '@aws-amplify/auth';
 export { API, APIClass, graphqlOperation } from '@aws-amplify/api';
-export {
-	AuthModeStrategyType,
-	DataStore,
-	Predicates,
-	SortDirection,
-	syncExpression,
-} from '@aws-amplify/datastore';
-export { PubSub } from '@aws-amplify/pubsub';
 export { Cache } from '@aws-amplify/cache';
 export { Notifications } from '@aws-amplify/notifications';
 export {

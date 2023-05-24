@@ -11,7 +11,6 @@ import {
 	Constants,
 	INTERNAL_AWS_APPSYNC_REALTIME_PUBSUB_PROVIDER,
 } from '@aws-amplify/core';
-import { PubSub } from '@aws-amplify/pubsub';
 import { Cache } from '@aws-amplify/cache';
 import * as Observable from 'zen-observable';
 import axios, { CancelTokenStatic } from 'axios';

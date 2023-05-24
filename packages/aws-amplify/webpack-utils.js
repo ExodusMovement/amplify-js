@@ -34,8 +34,6 @@ const packageFolderMap = {
 	'aws-amplify-react-native': 'aws-amplify-react-native',
 	cache: '@aws-amplify/cache',
 	core: '@aws-amplify/core',
-	datastore: '@aws-amplify/datastore',
-	pubsub: '@aws-amplify/pubsub',
 	pushnotification: '@aws-amplify/pushnotification',
 };
 

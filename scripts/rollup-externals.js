@@ -32,21 +32,12 @@ const cache_externals = ['@aws-amplify/core'];
 
 const xr_externals = ['@aws-amplify/core'];
 
-const pubsub_externals = [
-	'@aws-amplify/core',
-	'@types/zen-observable',
-	'uuid',
-	'zen-observable',
-	'paho-mqtt',
-];
-
 const amplify_externals = [
 	'@aws-amplify/analytics',
 	'@aws-amplify/api',
 	'@aws-amplify/auth',
 	'@aws-amplify/cache',
 	'@aws-amplify/core',
-	'@aws-amplify/pubsub',
 	'@aws-amplify/xr',
 ];
 
@@ -69,7 +60,6 @@ const rollup_externals = {
 	'aws-amplify-react': aws_amplify_react,
 	'@aws-amplify/cache': cache_externals,
 	'@aws-amplify/core': core_externals,
-	'@aws-amplify/pubsub': pubsub_externals,
 	'@aws-amplify/xr': xr_externals,
 };
 

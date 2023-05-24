@@ -14,9 +14,7 @@ import {
 	ConsoleLogger as Logger,
 	Credentials,
 	getAmplifyUserAgent,
-	INTERNAL_AWS_APPSYNC_REALTIME_PUBSUB_PROVIDER,
 } from '@aws-amplify/core';
-import { PubSub } from '@aws-amplify/pubsub';
 import { Auth } from '@aws-amplify/auth';
 import { Cache } from '@aws-amplify/cache';
 import {
@@ -401,24 +399,6 @@ export class GraphQLAPIClass {
 		} = this._options;
 		const authenticationType =
 			defaultAuthenticationType || aws_appsync_authenticationType || 'AWS_IAM';
-
-		if (PubSub && typeof PubSub.subscribe === 'function') {
-			return PubSub.subscribe('', {
-				provider: INTERNAL_AWS_APPSYNC_REALTIME_PUBSUB_PROVIDER,
-				appSyncGraphqlEndpoint,
-				authenticationType,
-				apiKey,
-				query: print(query as DocumentNode),
-				region,
-				variables,
-				graphql_headers,
-				additionalHeaders,
-				authToken,
-			});
-		} else {
-			logger.debug('No pubsub module applied for subscription');
-			throw new Error('No pubsub module applied for subscription');
-		}
 	}
 
 	/**
