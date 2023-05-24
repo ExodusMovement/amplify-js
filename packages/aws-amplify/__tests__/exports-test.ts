@@ -24,7 +24,6 @@ describe('aws-amplify', () => {
 			  "syncExpression",
 			  "PubSub",
 			  "Cache",
-			  "Interactions",
 			  "Notifications",
 			  "Predictions",
 			  "Logger",

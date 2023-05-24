@@ -35,7 +35,6 @@ const packageFolderMap = {
 	cache: '@aws-amplify/cache',
 	core: '@aws-amplify/core',
 	datastore: '@aws-amplify/datastore',
-	interactions: '@aws-amplify/interactions',
 	pubsub: '@aws-amplify/pubsub',
 	pushnotification: '@aws-amplify/pushnotification',
 };

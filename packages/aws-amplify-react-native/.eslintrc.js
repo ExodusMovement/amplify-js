@@ -11,7 +11,7 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'plugin:prettier/recommended',
 	],
-	ignorePatterns: ['src/*.ts', 'src/*.tsx', 'src/API', 'src/Auth', 'src/icons', 'src/Interactions', 'src/Storage'],
+	ignorePatterns: ['src/*.ts', 'src/*.tsx', 'src/API', 'src/Auth', 'src/icons', 'src/Storage'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaFeatures: {

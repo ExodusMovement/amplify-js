@@ -51,7 +51,6 @@ export class HubClass {
 		'auth',
 		'api',
 		'analytics',
-		'interactions',
 		'pubsub',
 		'storage',
 		'ui',

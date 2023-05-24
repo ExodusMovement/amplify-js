@@ -34,7 +34,6 @@ export {
 } from './Auth';
 export { Connect } from './API';
 export { S3Album, S3Image } from './Storage';
-export { ChatBot } from './Interactions';
 
 const configure = function (config) {
 	const msg = [
