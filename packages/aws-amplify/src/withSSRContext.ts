@@ -13,7 +13,7 @@ const requiredModules = [
 ];
 
 // These modules have been tested with SSR
-const defaultModules = [API, Auth, DataStore];
+const defaultModules = [API, Auth];
 
 type Context = {
 	req?: any;

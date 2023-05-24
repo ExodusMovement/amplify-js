@@ -389,7 +389,7 @@ export class GraphQLAPIClass {
 			authToken,
 		}: GraphQLOptions,
 		additionalHeaders = {}
-	): Observable<any> {
+	): any {
 		const {
 			aws_appsync_region: region,
 			aws_appsync_graphqlEndpoint: appSyncGraphqlEndpoint,
