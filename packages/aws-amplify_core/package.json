@@ -1,6 +1,6 @@
 {
 	"name": "@exodus/aws-amplify_core",
-	"version": "5.3.0-exodus.1",
+	"version": "5.3.0-exodus.2",
 	"description": "Core category of aws-amplify",
 	"main": "./lib/index.js",
 	"module": "./lib-esm/index.js",
