@@ -33,7 +33,6 @@ const packageFolderMap = {
 	'@exodus/aws-amplify-react-native': '@exodus/aws-amplify-react-native',
 	cache: '@exodus/aws-amplify_cache',
 	core: '@exodus/aws-amplify_core',
-	pushnotification: '@aws-amplify/pushnotification',
 };
 
 const folders = Object.keys(packageFolderMap);
