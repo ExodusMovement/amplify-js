@@ -3,64 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 5.3.0-exodus.0 (2023-05-30)
-
-### Bug Fixes
-
-- [#4311](https://github.com/aws-amplify/amplify-js/issues/4311) Update main entry field to point to CJS builds instead of webpack bundles ([#4678](https://github.com/aws-amplify/amplify-js/issues/4678)) ([54fbdf4](https://github.com/aws-amplify/amplify-js/commit/54fbdf4b1393567735fb7b5f4144db273f1a5f6a))
-- **@aws-amplify/datastore:** DataStore regression with AsyncStorage ([#6712](https://github.com/aws-amplify/amplify-js/issues/6712)) ([7059556](https://github.com/aws-amplify/amplify-js/commit/7059556f693b4a52143ecaa9934a14f7195caee8))
-- **@aws-amplify/datastore:** export SortDirection and syncExpression from aws-amplify ([#7104](https://github.com/aws-amplify/amplify-js/issues/7104)) ([8b3183f](https://github.com/aws-amplify/amplify-js/commit/8b3183f4d2ec7289044e2b6700e3ff4df3f98ce4))
-- @exodus/amazon-cognito-identity-js references ([71c2304](https://github.com/aws-amplify/amplify-js/commit/71c230495b7939c5c64e49645bdb8af276488a4b))
-- **API:** query string for non signed requests ([#801](https://github.com/aws-amplify/amplify-js/issues/801)) ([6746368](https://github.com/aws-amplify/amplify-js/commit/6746368507361e7e69c6a5bc627ca92f49971956))
-- **aws-amplify:** add DataStore export ([#5421](https://github.com/aws-amplify/amplify-js/issues/5421)) ([7cab470](https://github.com/aws-amplify/amplify-js/commit/7cab47085520534327f30b531d3fb0400cc07dac))
-- **aws-amplify:** delete unused AmazonAIPredictionsProvider import ([#4629](https://github.com/aws-amplify/amplify-js/issues/4629)) ([8781ce4](https://github.com/aws-amplify/amplify-js/commit/8781ce4b5139a9b55f39f59bb31e204bdbb2c8bc))
-- **aws-amplify:** export AnalyticsProvider ([#8936](https://github.com/aws-amplify/amplify-js/issues/8936)) ([41664c3](https://github.com/aws-amplify/amplify-js/commit/41664c36d7cd7249ddcdf421490d6501c4248f3c))
-- **aws-amplify:** Fix missing ServiceWorker export ([acbf754](https://github.com/aws-amplify/amplify-js/commit/acbf754d373f99052652a8711a06bccb1d5d1ff5))
-- **aws-amplify:** Fix remove side effect ([#10611](https://github.com/aws-amplify/amplify-js/issues/10611)) ([f8162de](https://github.com/aws-amplify/amplify-js/commit/f8162de66e40f523e4481ce5bfcd3ca7ba80cc09))
-- **aws-amplify:** manual version bumps for lerna issue ([9ce5a72](https://github.com/aws-amplify/amplify-js/commit/9ce5a720a659ee01857feadc12f169fdc1c8cbaa))
-- build errors ([8361c75](https://github.com/aws-amplify/amplify-js/commit/8361c75913a899d3663784632a9dba431067687a))
-- bumping version for deploying on unstable tag ([#1706](https://github.com/aws-amplify/amplify-js/issues/1706)) ([b5d6468](https://github.com/aws-amplify/amplify-js/commit/b5d646875cf0121ca0bfac7897cde0852ca0a65f))
-- **cache:** export correct module for RN ([#4786](https://github.com/aws-amplify/amplify-js/issues/4786)) ([a15730c](https://github.com/aws-amplify/amplify-js/commit/a15730cc50692d9d31a0f586c3544b3dcdbea659))
-- **integration tests:** CircleCI workflows and Cypress integration testing ([#1071](https://github.com/aws-amplify/amplify-js/issues/1071)) ([bfa4776](https://github.com/aws-amplify/amplify-js/commit/bfa477662591bbd7a92bbb8486778924589e4adb))
-- **interactions:** check fulfilled state to trigger onComplete callback ([#1122](https://github.com/aws-amplify/amplify-js/issues/1122)) ([c24b1f1](https://github.com/aws-amplify/amplify-js/commit/c24b1f1c2408702a47cc7fb7bfb4911c4fe40f13))
-- preserve ssr context when using DataStore ([#10088](https://github.com/aws-amplify/amplify-js/issues/10088)) ([a10d920](https://github.com/aws-amplify/amplify-js/commit/a10d920f7fb6199539fb8d9cec2cb4426dbfd47b))
-- **pushnotification:** revert change in pr 952 ([b8d167c](https://github.com/aws-amplify/amplify-js/commit/b8d167c6ba61c9d658890814e46aa0d9416e9091))
-- Re-add notifications to aws-amplify deps ([#10541](https://github.com/aws-amplify/amplify-js/issues/10541)) ([488118e](https://github.com/aws-amplify/amplify-js/commit/488118e281573783dfa627ead1c879da8f2cda68))
-- Restore `tslib` dependencies for v5 ([#10512](https://github.com/aws-amplify/amplify-js/issues/10512)) ([b631360](https://github.com/aws-amplify/amplify-js/commit/b6313600557e822f76ddaee8d571d17aa534874c))
-- Rollback the manual major version changes and change release command to increment the major versions ([#10638](https://github.com/aws-amplify/amplify-js/issues/10638)) ([660e5d9](https://github.com/aws-amplify/amplify-js/commit/660e5d9e7f18c514dc3c88322a1df6b5d5a5e796))
-- Run ts coverage check with test ([#11047](https://github.com/aws-amplify/amplify-js/issues/11047)) ([430bedf](https://github.com/aws-amplify/amplify-js/commit/430bedfd0d0618bd0093b488233521356feef787))
-- Standardize `cache` named export to preserve interoperability with RN ([#10546](https://github.com/aws-amplify/amplify-js/issues/10546)) ([20b096b](https://github.com/aws-amplify/amplify-js/commit/20b096b1a34e6a102d08dabcedb38772f3a6caf7))
-- **Storage:** allowing to set an empty value as prefix for the S3 Key ([#931](https://github.com/aws-amplify/amplify-js/issues/931)) ([240e50b](https://github.com/aws-amplify/amplify-js/commit/240e50b61f50eaf3712bfbc088d1b096360b401c))
-
-### Features
-
-- **@aws-amplify/datastore:** add query sorting ([#6785](https://github.com/aws-amplify/amplify-js/issues/6785)) ([d9c2f5e](https://github.com/aws-amplify/amplify-js/commit/d9c2f5efbd5ad5dd97e441d7f453f8358f615199))
-- **@aws-amplify/datastore:** Add SSR support for DataStore ([#6726](https://github.com/aws-amplify/amplify-js/issues/6726)) ([e56aba6](https://github.com/aws-amplify/amplify-js/commit/e56aba642acc7eb3482f0e69454a530409d1b3ac))
-- **@aws-amplify/datastore:** DataStore - Multi-Auth ([#8008](https://github.com/aws-amplify/amplify-js/issues/8008)) ([dedd564](https://github.com/aws-amplify/amplify-js/commit/dedd5641dfcfce209433088fe9570874cd810997))
-- **@aws-amplify/datastore:** Make DataStore available in aws-amplify… ([#5202](https://github.com/aws-amplify/amplify-js/issues/5202)) ([c9c020d](https://github.com/aws-amplify/amplify-js/commit/c9c020d6d13c5678ce15c738f7eaebec39e2b48a))
-- add a typescript coverage report mechanism ([#10551](https://github.com/aws-amplify/amplify-js/issues/10551)) ([8e8df55](https://github.com/aws-amplify/amplify-js/commit/8e8df55b449f8bae2fe962fe282613d1b818cc5a)), closes [#10379](https://github.com/aws-amplify/amplify-js/issues/10379)
-- Add ServiceWorker utility class ([#831](https://github.com/aws-amplify/amplify-js/issues/831)) ([2fd46e3](https://github.com/aws-amplify/amplify-js/commit/2fd46e314df11b2f6d13d646a092581cfff363e2))
-- Added Prettier formatting ([4dfd9aa](https://github.com/aws-amplify/amplify-js/commit/4dfd9aa9ab900307c9d17c68448a6ca4aa08fd5a))
-- **analytics:** Add analytics provider for AWS Firehose ([#2823](https://github.com/aws-amplify/amplify-js/issues/2823)) ([29103ae](https://github.com/aws-amplify/amplify-js/commit/29103ae0b2d76dba66e3dc856d77c4c2ffb0e687))
-- **aws-amplify-react-native:** Add withOAuth HOC for Cognito Hosted UI ([#2665](https://github.com/aws-amplify/amplify-js/issues/2665)) ([ac4d232](https://github.com/aws-amplify/amplify-js/commit/ac4d232a8ada0fd4f2e19c2e7196a8937dc63e0e))
-- **aws-amplify:** Bump the aws-amplify minor version ([#11327](https://github.com/aws-amplify/amplify-js/issues/11327)) ([d53501e](https://github.com/aws-amplify/amplify-js/commit/d53501ec542258611546d030e24e7d29854b103a))
-- **aws-amplify:** Commit for bumping minor version of aws-amplify ([#11222](https://github.com/aws-amplify/amplify-js/issues/11222)) ([4c955d4](https://github.com/aws-amplify/amplify-js/commit/4c955d44a52d04044ca7b98f0507517bd40b96d2))
-- **aws-amplify:** pull `Geo` through the main `aws-amplify` package ([#8669](https://github.com/aws-amplify/amplify-js/issues/8669)) ([8d72d8a](https://github.com/aws-amplify/amplify-js/commit/8d72d8aa63080d6307af5f4500c3e07194bfd4fb))
-- core/cloudwatch-logging ([#8588](https://github.com/aws-amplify/amplify-js/issues/8588)) ([6f28c7e](https://github.com/aws-amplify/amplify-js/commit/6f28c7e94ae8d41b37490292ff3547505100c6b2))
-- enable watch mode for builds ([#4358](https://github.com/aws-amplify/amplify-js/issues/4358)) ([055e530](https://github.com/aws-amplify/amplify-js/commit/055e5308efc308ae6beee78f8963bb2f812e1f85))
-- **interactions:** Interactions category ([#1042](https://github.com/aws-amplify/amplify-js/issues/1042)) ([befb336](https://github.com/aws-amplify/amplify-js/commit/befb33694f22db895dc54c5c52c1cbb0e54d707c))
-- moved CloudLogger logic to ConsoleLogger ([93db90d](https://github.com/aws-amplify/amplify-js/commit/93db90d041c7ca697e5993003a4fb105a3821cbe))
-- **SSR:** withSSRContext ([#6146](https://github.com/aws-amplify/amplify-js/issues/6146)) ([1cb1afd](https://github.com/aws-amplify/amplify-js/commit/1cb1afd1e56135908dceb2ef6403f0b3e78067fe))
-
-### Reverts
-
-- Revert "Publish" ([1319d31](https://github.com/aws-amplify/amplify-js/commit/1319d319b69717e76660fbfa6f1a845195c6d635))
-- Revert "chore(release): Publish [ci skip]" ([9b03c49](https://github.com/aws-amplify/amplify-js/commit/9b03c49b0ba5eef09920017386c9fae139b6e0f9))
-
-# 0.2.0 (2018-02-01)
-
-## 0.1.35 (2018-01-17)
-
 ## [5.2.1](https://github.com/aws-amplify/amplify-js/compare/aws-amplify@5.2.0...aws-amplify@5.2.1) (2023-05-12)
 
 **Note:** Version bump only for package aws-amplify

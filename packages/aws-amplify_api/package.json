@@ -1,6 +1,6 @@
 {
 	"name": "@exodus/aws-amplify_api",
-	"version": "5.1.0-exodus.2",
+	"version": "5.1.0-exodus.1",
 	"description": "Api category of aws-amplify",
 	"main": "./lib/index.js",
 	"module": "./lib-esm/index.js",
@@ -57,7 +57,7 @@
 		"index.*.d.ts"
 	],
 	"dependencies": {
-		"@exodus/aws-amplify_api-rest": "3.1.0-exodus.2",
+		"@exodus/aws-amplify_api-rest": "3.1.0-exodus.1",
 		"tslib": "^1.8.0"
 	},
 	"size-limit": [

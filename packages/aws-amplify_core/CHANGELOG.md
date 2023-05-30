@@ -3,10 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 5.3.0-exodus.2 (2023-05-30)
-
-**Note:** Version bump only for package @exodus/aws-amplify_core
-
 # [5.3.0](https://github.com/aws-amplify/amplify-js/compare/@aws-amplify/core@5.2.0...@aws-amplify/core@5.3.0) (2023-05-12)
 
 ### Bug Fixes
