@@ -6,7 +6,7 @@ import { ConsoleLogger as Logger } from '@exodus/aws-amplify_core';
 import {
 	AmplifyRTNPushNotification,
 	PushNotificationNativeModule,
-} from '@exodus_aws-amplify_rtn-push-notification';
+} from '@exodus/aws-amplify_rtn-push-notification';
 
 import {
 	addEventListener,
@@ -35,7 +35,7 @@ import {
 } from './utils';
 
 const logger = new Logger('Notifications.PushNotification');
-const RTN_MODULE = '@exodus_aws-amplify_rtn-push-notification';
+const RTN_MODULE = '@exodus/aws-amplify_rtn-push-notification';
 const BACKGROUND_TASK_TIMEOUT = 25; // seconds
 
 export default class PushNotification implements PushNotificationInterface {
