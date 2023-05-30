@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 import { Auth } from '@exodus/aws-amplify_auth';
 import { Cache } from '@exodus/aws-amplify_cache';
-import { RestAPIClass } from '@exodus/aws-amplify_api-rest';
+import { RestAPIClass } from '../../aws-amplify_api-rest/lib-esm';
 import {
 	Amplify,
 	ConsoleLogger as Logger,
