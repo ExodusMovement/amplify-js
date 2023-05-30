@@ -34,7 +34,7 @@ const EXCLUDED_PACKAGES = [];
 
 // List of CJS identified packages
 const CJS_PACKAGES_PRESET = [
-	'aws-amplify-react-native',
+	'@exodus/aws-amplify-react-native',
 	'@aws-amplify/pushnotification',
 ];
 

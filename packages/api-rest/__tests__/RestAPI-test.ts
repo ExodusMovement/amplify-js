@@ -1,7 +1,7 @@
 import axios, { CancelTokenStatic } from 'axios';
 import { RestAPIClass as API } from '../src/';
 import { RestClient } from '../src/RestClient';
-import { Signer, Credentials, DateUtils } from '@aws-amplify/core';
+import { Signer, Credentials, DateUtils } from '@exodus/aws-amplify_core';
 
 jest.mock('axios');
 

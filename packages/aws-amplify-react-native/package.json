@@ -1,5 +1,5 @@
 {
-	"name": "aws-amplify-react-native",
+	"name": "@exodus/aws-amplify-react-native",
 	"version": "7.0.2",
 	"description": "AWS Amplify is a JavaScript library for Frontend and mobile developers building cloud-enabled applications.",
 	"main": "dist/index.js",
@@ -45,7 +45,7 @@
 	},
 	"peerDependencies": {
 		"@react-native-picker/picker": ">=1.2",
-		"aws-amplify": "5.x.x",
+		"@exodus/aws-amplify": "5.x.x",
 		"graphql": "15.8.0"
 	},
 	"repository": {

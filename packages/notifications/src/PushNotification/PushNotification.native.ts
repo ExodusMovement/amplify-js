@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AppRegistry, NativeEventEmitter } from 'react-native';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@exodus/aws-amplify_core';
 import {
 	AmplifyRTNPushNotification,
 	PushNotificationNativeModule,
-} from '@aws-amplify/rtn-push-notification';
+} from '@exodus_aws-amplify_rtn-push-notification';
 
 import {
 	addEventListener,
@@ -35,7 +35,7 @@ import {
 } from './utils';
 
 const logger = new Logger('Notifications.PushNotification');
-const RTN_MODULE = '@aws-amplify/rtn-push-notification';
+const RTN_MODULE = '@exodus_aws-amplify_rtn-push-notification';
 const BACKGROUND_TASK_TIMEOUT = 25; // seconds
 
 export default class PushNotification implements PushNotificationInterface {

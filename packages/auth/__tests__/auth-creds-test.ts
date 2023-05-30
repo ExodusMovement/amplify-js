@@ -1,5 +1,5 @@
 import { AuthClass as Auth } from '../src/Auth';
-import { Credentials } from '@aws-amplify/core';
+import { Credentials } from '@exodus/aws-amplify_core';
 import { AuthOptions } from '../src/types';
 import {
 	CognitoUser,

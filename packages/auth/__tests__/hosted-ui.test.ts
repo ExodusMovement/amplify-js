@@ -157,12 +157,12 @@ jest.mock('amazon-cognito-identity-js/lib/CognitoUser', () => {
 	return CognitoUser;
 });
 
-import * as AmplifyCore from '@aws-amplify/core';
+import * as AmplifyCore from '@exodus/aws-amplify_core';
 const { Hub, Credentials, StorageHelper } = AmplifyCore;
 
 // Mock the module to ensure that setters are available for spying
-jest.mock('@aws-amplify/core', () => ({
-	...jest.requireActual('@aws-amplify/core'),
+jest.mock('@exodus/aws-amplify_core', () => ({
+	...jest.requireActual('@exodus/aws-amplify_core'),
 }));
 
 const authOptionsWithOAuth: AuthOptions = {

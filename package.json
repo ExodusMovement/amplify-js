@@ -1,5 +1,5 @@
 {
-	"name": "aws-amplify-monorepo",
+	"name": "@exodus/aws-amplify-monorepo",
 	"private": true,
 	"version": "0.1.30",
 	"description": "",
@@ -42,8 +42,8 @@
 		"nohoist": [
 			"**/@types/react-native",
 			"**/@types/react-native/**",
-			"aws-amplify-react-native/prettier",
-			"aws-amplify-react-native/eslint-plugin-prettier"
+			"@exodus/aws-amplify-react-native/prettier",
+			"@exodus/aws-amplify-react-native/eslint-plugin-prettier"
 		]
 	},
 	"repository": {

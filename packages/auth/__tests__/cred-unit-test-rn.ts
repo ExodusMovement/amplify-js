@@ -135,7 +135,7 @@ jest.mock('amazon-cognito-identity-js/lib/CognitoUser', () => {
 	return CognitoUser;
 });
 
-jest.mock('@aws-amplify/core', () => {
+jest.mock('@exodus/aws-amplify_core', () => {
 	return {
 		Platform: {
 			isReactNative: true,
@@ -151,7 +151,7 @@ import {
 	CognitoIdToken,
 	CognitoAccessToken,
 } from 'amazon-cognito-identity-js';
-import { Credentials } from '@aws-amplify/core';
+import { Credentials } from '@exodus/aws-amplify_core';
 
 const authOptions: AuthOptions = {
 	userPoolId: 'awsUserPoolsId',

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { Event as AWSPinpointAnalyticsEvent } from '@aws-sdk/client-pinpoint';
-import { ConsoleLogger, Hub } from '@aws-amplify/core';
+import { ConsoleLogger, Hub } from '@exodus/aws-amplify_core';
 import { AMPLIFY_SYMBOL } from '../../../common';
 import { PushNotificationMessage } from '../../types';
 import {

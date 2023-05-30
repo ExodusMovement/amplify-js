@@ -14,7 +14,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import { Auth, I18n, Logger } from 'aws-amplify';
+import { Auth, I18n, Logger } from '@exodus/aws-amplify';
 import { AmplifyButton, FormField, LinkCell, Header, ErrorRow, SignedOutMessage, Wrapper } from '../AmplifyUI';
 import AuthPiece, { IAuthPieceProps, IAuthPieceState } from './AuthPiece';
 import { AmplifyThemeType } from '../AmplifyTheme';

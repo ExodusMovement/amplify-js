@@ -249,7 +249,7 @@ import {
 	Credentials,
 	StorageHelper,
 	NonRetryableError,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 
 const authOptions: AuthOptions = {
 	userPoolId: 'awsUserPoolsId',

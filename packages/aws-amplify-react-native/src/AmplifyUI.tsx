@@ -27,7 +27,7 @@ import {
 	TouchableOpacityProps,
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import { I18n } from 'aws-amplify';
+import { I18n } from '@exodus/aws-amplify';
 import AmplifyTheme, { AmplifyThemeType, placeholderColor } from './AmplifyTheme';
 import countryDialCodes from './CountryDialCodes';
 import TEST_ID from './AmplifyTestIDs';

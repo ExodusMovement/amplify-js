@@ -1,7 +1,7 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-import { Amplify as AmplifyCore, I18n } from 'aws-amplify';
+import { Amplify as AmplifyCore, I18n } from '@exodus/aws-amplify';
 import dict from './AmplifyI18n';
 
 export { default as AmplifyTheme } from './AmplifyTheme';
@@ -38,12 +38,12 @@ export { S3Album, S3Image } from './Storage';
 const configure = function (config) {
 	const msg = [
 		'',
-		'\x1b[33mWarning: Amplify.configure() is deprecated from aws-amplify-react-native.',
+		'\x1b[33mWarning: Amplify.configure() is deprecated from @exodus/aws-amplify-react-native.',
 		'        Please import aws-amplify package to configure AWS Amplify\x1b[0m',
 		'',
 		'        Example:',
 		'',
-		"        \x1b[36mimport Amplify from 'aws-amplify';",
+		"        \x1b[36mimport Amplify from '@exodus/aws-amplify';",
 		"        import aws_exports from './aws-exports';",
 		'',
 		'        Amplify.configure(aws_exports)\x1b[0m',

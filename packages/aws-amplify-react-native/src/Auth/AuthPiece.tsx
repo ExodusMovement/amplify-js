@@ -13,8 +13,8 @@
 
 import React from 'react';
 import { Keyboard } from 'react-native';
-import { Auth, Logger, I18n } from 'aws-amplify';
-import { isEmpty } from '@aws-amplify/core';
+import { Auth, Logger, I18n } from '@exodus/aws-amplify';
+import { isEmpty } from '@exodus/aws-amplify_core';
 
 import AmplifyTheme, { AmplifyThemeType } from '../AmplifyTheme';
 import AmplifyMessageMap from '../AmplifyMessageMap';

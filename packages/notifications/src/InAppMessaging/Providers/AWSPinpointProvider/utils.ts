@@ -1,7 +1,7 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-import { Amplify, ConsoleLogger, Hub } from '@aws-amplify/core';
+import { Amplify, ConsoleLogger, Hub } from '@exodus/aws-amplify_core';
 import {
 	InAppMessageCampaign as PinpointInAppMessage,
 	Layout as PinpointInAppMessageLayout,

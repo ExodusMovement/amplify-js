@@ -9,7 +9,11 @@ import {
 } from 'react-native';
 import PushNotificationIOS from '@react-native-community/push-notification-ios';
 import AsyncStorage from '@exodus/react-native-async-storage';
-import { Amplify, ConsoleLogger as Logger, isEmpty } from '@aws-amplify/core';
+import {
+	Amplify,
+	ConsoleLogger as Logger,
+	isEmpty,
+} from '@exodus/aws-amplify_core';
 
 const logger = new Logger('Notification');
 

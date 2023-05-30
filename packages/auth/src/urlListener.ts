@@ -1,6 +1,6 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
-import { browserOrNode } from '@aws-amplify/core';
+import { browserOrNode } from '@exodus/aws-amplify_core';
 
 export default callback => {
 	if (browserOrNode().isBrowser && window.location) {

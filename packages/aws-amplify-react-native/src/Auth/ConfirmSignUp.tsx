@@ -13,7 +13,7 @@
 
 import React from 'react';
 import { View } from 'react-native';
-import { Auth, I18n, Logger } from 'aws-amplify';
+import { Auth, I18n, Logger } from '@exodus/aws-amplify';
 import { FormField, LinkCell, Header, ErrorRow, AmplifyButton, SignedOutMessage, Wrapper } from '../AmplifyUI';
 import AuthPiece, { IAuthPieceProps, IAuthPieceState } from './AuthPiece';
 import TEST_ID from '../AmplifyTestIDs';

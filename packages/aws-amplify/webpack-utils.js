@@ -27,12 +27,12 @@
 
 const packageFolderMap = {
 	'amazon-cognito-identity-js': 'amazon-cognito-identity-js',
-	api: '@aws-amplify/api',
-	auth: '@aws-amplify/auth',
-	'aws-amplify': 'aws-amplify',
-	'aws-amplify-react-native': 'aws-amplify-react-native',
-	cache: '@aws-amplify/cache',
-	core: '@aws-amplify/core',
+	api: '@exodus/aws-amplify_api',
+	auth: '@exodus/aws-amplify_auth',
+	'@exodus/aws-amplify': '@exodus/aws-amplify',
+	'@exodus/aws-amplify-react-native': '@exodus/aws-amplify-react-native',
+	cache: '@exodus/aws-amplify_cache',
+	core: '@exodus/aws-amplify_core',
 	pushnotification: '@aws-amplify/pushnotification',
 };
 

@@ -1,5 +1,5 @@
 import { AuthClass as Auth } from '../src/Auth';
-import { Credentials } from '@aws-amplify/core';
+import { Credentials } from '@exodus/aws-amplify_core';
 
 describe('configure test', () => {
 	test('throw error when storage is empty', () => {

@@ -35,7 +35,7 @@ import {
 	UniversalStorage,
 	urlSafeDecode,
 	HubCallback,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import {
 	CookieStorage,
 	CognitoUserPool,

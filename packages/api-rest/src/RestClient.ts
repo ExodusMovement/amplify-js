@@ -7,7 +7,7 @@ import {
 	DateUtils,
 	Signer,
 	Platform,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 
 import { apiOptions, ApiInfo } from './types';
 import axios, { CancelTokenSource } from 'axios';

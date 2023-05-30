@@ -1,4 +1,4 @@
-import { Signer } from '@aws-amplify/core';
+import { Signer } from '@exodus/aws-amplify_core';
 
 jest
 	.spyOn(Signer, 'sign')

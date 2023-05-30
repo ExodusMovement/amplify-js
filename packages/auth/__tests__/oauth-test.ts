@@ -15,7 +15,7 @@ jest.mock('../src/OAuth/urlOpener', () => {
 	};
 });
 
-jest.mock('@aws-amplify/core', () => ({
+jest.mock('@exodus/aws-amplify_core', () => ({
 	ConsoleLogger: () => ({
 		debug: jest.fn(),
 		error: jest.fn(),

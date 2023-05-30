@@ -8,10 +8,10 @@ module.exports = {
 		'graphql/language/parser',
 		'graphql/language/printer',
 		{
-			'@aws-amplify/auth': 'aws_amplify_auth',
-			'@aws-amplify/cache': 'aws_amplify_cache',
-			'@aws-amplify/core': 'aws_amplify_core'
-		}
+			'@exodus/aws-amplify_auth': 'aws_amplify_auth',
+			'@exodus/aws-amplify_cache': 'aws_amplify_cache',
+			'@exodus/aws-amplify_core': 'aws_amplify_core',
+		},
 	],
 	output: {
 		filename: '[name].js',

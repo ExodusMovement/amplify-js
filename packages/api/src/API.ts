@@ -1,13 +1,13 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
-import { Auth } from '@aws-amplify/auth';
-import { Cache } from '@aws-amplify/cache';
-import { RestAPIClass } from '@aws-amplify/api-rest';
+import { Auth } from '@exodus/aws-amplify_auth';
+import { Cache } from '@exodus/aws-amplify_cache';
+import { RestAPIClass } from '@exodus/aws-amplify_api-rest';
 import {
 	Amplify,
 	ConsoleLogger as Logger,
 	Credentials,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 
 const logger = new Logger('API');
 /**

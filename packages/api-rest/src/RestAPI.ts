@@ -5,7 +5,7 @@ import {
 	Amplify,
 	ConsoleLogger as Logger,
 	Credentials,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import { ApiInfo } from './types';
 
 const logger = new Logger('RestAPI');

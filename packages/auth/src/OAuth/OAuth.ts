@@ -12,7 +12,11 @@ import {
 	CognitoHostedUIIdentityProvider,
 } from '../types/Auth';
 
-import { ConsoleLogger as Logger, Hub, urlSafeEncode } from '@aws-amplify/core';
+import {
+	ConsoleLogger as Logger,
+	Hub,
+	urlSafeEncode,
+} from '@exodus/aws-amplify_core';
 
 import { Sha256 } from '@aws-crypto/sha256-js';
 const AMPLIFY_SYMBOL = (

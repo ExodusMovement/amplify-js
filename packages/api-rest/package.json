@@ -1,5 +1,5 @@
 {
-  "name": "@aws-amplify/api-rest",
+  "name": "@exodus/aws-amplify_api-rest",
   "version": "3.1.0",
   "description": "Api-rest category of aws-amplify",
   "main": "./lib/index.js",
@@ -46,7 +46,7 @@
     "src"
   ],
   "dependencies": {
-    "@aws-amplify/core": "5.3.0",
+    "@exodus/aws-amplify_core": "5.3.0",
     "axios": "0.26.0",
     "tslib": "^1.8.0"
   },

@@ -13,16 +13,13 @@
 
 import React from 'react';
 import { View } from 'react-native';
-import { I18n } from 'aws-amplify';
+import { I18n } from '@exodus/aws-amplify';
 import AuthPiece, { IAuthPieceProps, IAuthPieceState } from './AuthPiece';
 import { Header } from '../AmplifyUI';
 import { AmplifyThemeType } from '../AmplifyTheme';
 import TEST_ID from '../AmplifyTestIDs';
 
-export default class Loading extends AuthPiece<
-	IAuthPieceProps,
-	IAuthPieceState
-> {
+export default class Loading extends AuthPiece<IAuthPieceProps, IAuthPieceState> {
 	constructor(props: IAuthPieceProps) {
 		super(props);
 

@@ -1,6 +1,10 @@
-import { API } from '@aws-amplify/api';
-import { Auth } from '@aws-amplify/auth';
-import { AmplifyClass, Credentials, UniversalStorage } from '@aws-amplify/core';
+import { API } from '@exodus/aws-amplify_api';
+import { Auth } from '@exodus/aws-amplify_auth';
+import {
+	AmplifyClass,
+	Credentials,
+	UniversalStorage,
+} from '@exodus/aws-amplify_core';
 
 // ! We have to use this exact reference, since it gets mutated with Amplify.Auth
 import { Amplify } from './index';

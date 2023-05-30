@@ -7,7 +7,7 @@ import {
 	HubCapsule,
 	Hub,
 	StorageHelper,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import flatten from 'lodash/flatten';
 
 import {

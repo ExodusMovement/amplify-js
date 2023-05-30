@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { CacheConfig, CacheItem, CacheItemOptions } from '../types';
-import { StorageHelper } from '@aws-amplify/core';
+import { StorageHelper } from '@exodus/aws-amplify_core';
 /**
  * Default cache config
  */

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { AuthErrorMessages, AuthErrorTypes } from './types';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@exodus/aws-amplify_core';
 import { AuthErrorStrings } from './common/AuthErrorStrings';
 
 const logger = new Logger('AuthError');

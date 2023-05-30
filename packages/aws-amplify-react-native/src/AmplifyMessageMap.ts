@@ -1,7 +1,7 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-import { I18n } from 'aws-amplify';
+import { I18n } from '@exodus/aws-amplify';
 
 type MapEntry = [string, RegExp, string?];
 
@@ -18,7 +18,7 @@ export const MapEntries: MapEntry[] = [
 ];
 
 export default (message: string) => {
-	const match = MapEntries.filter(entry => entry[1].test(message));
+	const match = MapEntries.filter((entry) => entry[1].test(message));
 	if (match.length === 0) {
 		return message;
 	}

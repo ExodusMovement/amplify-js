@@ -194,7 +194,7 @@ import {
 	CognitoIdToken,
 	CognitoAccessToken,
 } from 'amazon-cognito-identity-js';
-import { Hub } from '@aws-amplify/core';
+import { Hub } from '@exodus/aws-amplify_core';
 
 const authOptions: any = {
 	Auth: {

@@ -13,7 +13,7 @@
 
 import React from 'react';
 import { View } from 'react-native';
-import { Logger } from 'aws-amplify';
+import { Logger } from '@exodus/aws-amplify';
 import Authenticator from './Authenticator';
 import AuthPiece from './AuthPiece';
 import Loading from './Loading';

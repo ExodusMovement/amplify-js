@@ -12,8 +12,8 @@
  */
 
 import React, { FC, ReactNode } from 'react';
-import { Auth, Analytics, Logger, Hub } from 'aws-amplify';
-import { isEmpty } from '@aws-amplify/core';
+import { Auth, Analytics, Logger, Hub } from '@exodus/aws-amplify';
+import { isEmpty } from '@exodus/aws-amplify_core';
 
 import AmplifyTheme, { AmplifyThemeType } from '../AmplifyTheme';
 import AmplifyMessageMap from '../AmplifyMessageMap';
