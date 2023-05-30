@@ -193,7 +193,7 @@ import {
 	CognitoUserSession,
 	CognitoIdToken,
 	CognitoAccessToken,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 import { Hub } from '@exodus/aws-amplify_core';
 
 const authOptions: any = {

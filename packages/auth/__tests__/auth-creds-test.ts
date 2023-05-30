@@ -7,7 +7,7 @@ import {
 	CognitoUserSession,
 	CognitoAccessToken,
 	CognitoIdToken,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 const authOptions: AuthOptions = {
 	userPoolId: 'us-west-2_0xxxxxxxx',
 	userPoolWebClientId: 'awsUserPoolsWebClientId',

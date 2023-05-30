@@ -4,7 +4,7 @@ import {
 	CognitoUserSession,
 	CognitoAccessToken,
 	CognitoIdToken,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 
 jest.mock('amazon-cognito-identity-js/lib/CognitoUserPool', () => {
 	const CognitoUserPool = () => {};

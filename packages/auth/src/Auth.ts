@@ -54,7 +54,7 @@ import {
 	CognitoAccessToken,
 	NodeCallback,
 	CodeDeliveryDetails,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 
 import { parse } from 'url';
 import OAuth from './OAuth/OAuth';

@@ -7,7 +7,7 @@ import {
 	CognitoIdToken,
 	CognitoAccessToken,
 	CognitoUserAttribute,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 
 import { AuthOptions } from '../src/types';
 

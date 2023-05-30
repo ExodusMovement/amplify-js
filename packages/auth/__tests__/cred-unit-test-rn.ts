@@ -150,7 +150,7 @@ import {
 	CognitoUserSession,
 	CognitoIdToken,
 	CognitoAccessToken,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 import { Credentials } from '@exodus/aws-amplify_core';
 
 const authOptions: AuthOptions = {

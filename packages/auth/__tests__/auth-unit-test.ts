@@ -9,7 +9,7 @@ import {
 	CognitoAccessToken,
 	NodeCallback,
 	ISignUpResult,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 
 const MAX_DEVICES: number = 60;
 

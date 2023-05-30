@@ -4,7 +4,7 @@
 import {
 	ICookieStorageData,
 	ICognitoStorage,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 
 /**
  * Parameters for user sign up

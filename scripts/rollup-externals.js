@@ -12,7 +12,7 @@ const auth_externals = [
 	'@exodus/aws-amplify_cache',
 	'@exodus/aws-amplify_core',
 	'amazon-cognito-auth-js',
-	'amazon-cognito-identity-js',
+	'@exodus/amazon-cognito-identity-js',
 ];
 
 const cache_externals = ['@exodus/aws-amplify_core'];

@@ -11,7 +11,7 @@ import {
 	CognitoUser,
 	CookieStorage,
 	appendToCognitoUserAgent,
-} from 'amazon-cognito-identity-js';
+} from '@exodus/amazon-cognito-identity-js';
 import { AuthErrorStrings } from './common/AuthErrorStrings';
 
 /**
