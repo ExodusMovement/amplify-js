@@ -1,6 +1,6 @@
 {
-	"name": "@aws-amplify/analytics",
-	"version": "6.1.0",
+	"name": "@exodus/aws-amplify_analytics",
+	"version": "6.1.0-exodus.1",
 	"description": "Analytics category of aws-amplify",
 	"main": "./lib/index.js",
 	"module": "./lib-esm/index.js",
