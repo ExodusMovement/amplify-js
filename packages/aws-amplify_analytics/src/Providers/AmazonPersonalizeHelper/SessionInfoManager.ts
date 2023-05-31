@@ -8,7 +8,7 @@ import {
 	ConsoleLogger as Logger,
 	browserOrNode,
 } from '@exodus/aws-amplify_core';
-import { Cache } from '@aws-amplify/cache';
+import { Cache } from '@exodus/aws-amplify_cache';
 
 const PERSONALIZE_CACHE = '_awsct';
 const PERSONALIZE_CACHE_USERID = '_awsct_uid';
