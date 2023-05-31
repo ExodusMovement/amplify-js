@@ -1,6 +1,6 @@
 {
   "name": "@exodus/aws-amplify",
-  "version": "5.2.2-exodus.0",
+  "version": "5.2.2-exodus.1",
   "description": "AWS Amplify is a JavaScript library for Frontend and mobile developers building cloud-enabled applications.",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
@@ -41,7 +41,7 @@
   ],
   "dependencies": {
     "@exodus/aws-amplify_analytics": "6.1.1-exodus.0",
-    "@exodus/aws-amplify_api": "5.1.1-exodus.0",
+    "@exodus/aws-amplify_api": "5.1.2-exodus.1",
     "@exodus/aws-amplify_auth": "5.3.7-exodus.0",
     "@exodus/aws-amplify_cache": "5.0.33-exodus.0",
     "@exodus/aws-amplify_core": "5.3.1-exodus.0",
