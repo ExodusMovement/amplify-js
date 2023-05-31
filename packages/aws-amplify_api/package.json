@@ -1,6 +1,6 @@
 {
 	"name": "@exodus/aws-amplify_api",
-	"version": "5.1.0-exodus.1",
+	"version": "5.1.1-exodus.0",
 	"description": "Api category of aws-amplify",
 	"main": "./lib/index.js",
 	"module": "./lib-esm/index.js",
@@ -111,5 +111,6 @@
 			"lib",
 			"lib-esm"
 		]
-	}
+	},
+	"gitHead": "502d567040f57310040d296fd36bfe7d9fd990fe"
 }

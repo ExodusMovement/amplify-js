@@ -1,7 +1,7 @@
 {
   "name": "@exodus/amazon-cognito-identity-js",
   "description": "Amazon Cognito Identity Provider JavaScript SDK",
-  "version": "6.2.0-exodus.2",
+  "version": "6.2.1-exodus.0",
   "author": {
     "name": "Amazon Web Services",
     "email": "aws@amazon.com",
@@ -91,5 +91,6 @@
     "rimraf": "^2.5.4",
     "uglifyjs-webpack-plugin": "^1.0.0",
     "webpack": "^3.5.5"
-  }
+  },
+  "gitHead": "502d567040f57310040d296fd36bfe7d9fd990fe"
 }

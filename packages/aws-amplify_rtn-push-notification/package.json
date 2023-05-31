@@ -1,6 +1,6 @@
 {
 	"name": "@exodus/aws-amplify_rtn-push-notification",
-	"version": "1.1.1-exodus.1",
+	"version": "1.1.2-exodus.0",
 	"description": "React Native module for aws-amplify push notifications",
 	"main": "./lib/index.js",
 	"module": "./lib-esm/index.js",
@@ -43,5 +43,6 @@
 		"lib",
 		"lib-esm",
 		"src"
-	]
+	],
+	"gitHead": "502d567040f57310040d296fd36bfe7d9fd990fe"
 }
