@@ -2,6 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0
 
 export { Amplify } from '@exodus/aws-amplify_core';
+export {
+	Analytics,
+	AnalyticsProvider,
+	AWSPinpointProvider,
+	AWSKinesisProvider,
+	AWSKinesisFirehoseProvider,
+	AmazonPersonalizeProvider,
+} from '@aws-amplify/analytics';
 export { Auth } from '@exodus/aws-amplify_auth';
 export { API, APIClass } from '@exodus/aws-amplify_api';
 export { Cache } from '@exodus/aws-amplify_cache';
