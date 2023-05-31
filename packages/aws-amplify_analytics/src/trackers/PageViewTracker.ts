@@ -3,7 +3,10 @@
 
 import { pageViewTrackOpts } from '../types';
 import { MethodEmbed } from '../utils/MethodEmbed';
-import { ConsoleLogger as Logger, browserOrNode } from '@aws-amplify/core';
+import {
+	ConsoleLogger as Logger,
+	browserOrNode,
+} from '@exodus/aws-amplify_core';
 
 const logger = new Logger('PageViewTracker');
 const PREV_URL_KEY = 'aws-amplify-analytics-prevUrl';

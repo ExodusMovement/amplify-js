@@ -10,7 +10,7 @@ import {
 	getAmplifyUserAgent,
 	transferKeyToLowerCase,
 	transferKeyToUpperCase,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import {
 	EventsBatch,
 	PinpointClient,

@@ -8,7 +8,7 @@ import {
 	Hub,
 	Constants,
 	browserOrNode,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import { SessionTrackOpts } from '../types';
 
 const logger = new Logger('SessionTracker');

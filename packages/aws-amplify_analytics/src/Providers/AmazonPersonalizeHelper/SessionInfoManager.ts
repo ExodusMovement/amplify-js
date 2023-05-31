@@ -4,7 +4,10 @@ import { SessionInfo } from './DataType';
 import isEmpty from 'lodash/isEmpty';
 import isEqual from 'lodash/isEqual';
 import { v1 as uuid } from 'uuid';
-import { ConsoleLogger as Logger, browserOrNode } from '@aws-amplify/core';
+import {
+	ConsoleLogger as Logger,
+	browserOrNode,
+} from '@exodus/aws-amplify_core';
 import { Cache } from '@aws-amplify/cache';
 
 const PERSONALIZE_CACHE = '_awsct';

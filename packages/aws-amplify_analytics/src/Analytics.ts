@@ -6,7 +6,7 @@ import {
 	ConsoleLogger as Logger,
 	Hub,
 	parseAWSExports,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import { AWSPinpointProvider } from './Providers/AWSPinpointProvider';
 
 import {

@@ -6,7 +6,7 @@ import {
 	Credentials,
 	getAmplifyUserAgent,
 	browserOrNode,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import {
 	PersonalizeEventsClient,
 	PutEventsCommand,

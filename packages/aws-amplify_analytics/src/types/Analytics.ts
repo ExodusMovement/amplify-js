@@ -1,6 +1,6 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
-import { ICredentials } from '@aws-amplify/core';
+import { ICredentials } from '@exodus/aws-amplify_core';
 /**
  * Analytics instance options
  */

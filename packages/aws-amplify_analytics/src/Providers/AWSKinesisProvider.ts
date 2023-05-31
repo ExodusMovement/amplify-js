@@ -5,7 +5,7 @@ import {
 	ConsoleLogger as Logger,
 	Credentials,
 	getAmplifyUserAgent,
-} from '@aws-amplify/core';
+} from '@exodus/aws-amplify_core';
 import { KinesisClient, PutRecordsCommand } from '@aws-sdk/client-kinesis';
 import { AnalyticsProvider } from '../types';
 import { fromUtf8 } from '@aws-sdk/util-utf8-browser';

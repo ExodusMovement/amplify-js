@@ -3,7 +3,10 @@
 
 import { delegate } from '../vendor/dom-utils';
 import { EventTrackOpts } from '../types';
-import { ConsoleLogger as Logger, browserOrNode } from '@aws-amplify/core';
+import {
+	ConsoleLogger as Logger,
+	browserOrNode,
+} from '@exodus/aws-amplify_core';
 
 const logger = new Logger('EventTracker');
 

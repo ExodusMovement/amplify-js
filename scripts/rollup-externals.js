@@ -2,7 +2,7 @@ const core_externals = ['aws-sdk', 'aws-sdk/global', 'react-native', 'url'];
 
 const analytics_externals = [
 	'@aws-amplify/cache',
-	'@aws-amplify/core',
+	'@exodus/aws-amplify_core',
 	'uuid',
 	'aws-sdk/clients/pinpoint',
 	'react-native',
