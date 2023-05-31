@@ -29,7 +29,7 @@ const cache_externals = ['@exodus/aws-amplify_core'];
 const xr_externals = ['@exodus/aws-amplify_core'];
 
 const amplify_externals = [
-	'@aws-amplify/analytics',
+	'@exodus/aws-amplify_analytics',
 	'@exodus/aws-amplify_api',
 	'@exodus/aws-amplify_auth',
 	'@exodus/aws-amplify_cache',
@@ -39,7 +39,7 @@ const amplify_externals = [
 
 const aws_amplify_react = [
 	'@exodus/aws-amplify_auth',
-	'@aws-amplify/analytics',
+	'@exodus/aws-amplify_analytics',
 	'@exodus/aws-amplify_api',
 	'@exodus/aws-amplify_core',
 	'@aws-amplify/xr',
@@ -49,7 +49,7 @@ const aws_amplify_react = [
 ];
 
 const rollup_externals = {
-	'@aws-amplify/analytics': analytics_externals,
+	'@exodus/aws-amplify_analytics': analytics_externals,
 	'@exodus/aws-amplify_api': api_externals,
 	'@exodus/aws-amplify_auth': auth_externals,
 	'@exodus/aws-amplify': amplify_externals,

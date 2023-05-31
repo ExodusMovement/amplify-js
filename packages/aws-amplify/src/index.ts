@@ -9,7 +9,7 @@ export {
 	AWSKinesisProvider,
 	AWSKinesisFirehoseProvider,
 	AmazonPersonalizeProvider,
-} from '@aws-amplify/analytics';
+} from '@exodus/aws-amplify_analytics';
 export { Auth } from '@exodus/aws-amplify_auth';
 export { API, APIClass } from '@exodus/aws-amplify_api';
 export { Cache } from '@exodus/aws-amplify_cache';

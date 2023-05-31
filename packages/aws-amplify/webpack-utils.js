@@ -27,7 +27,7 @@
 
 const packageFolderMap = {
 	'@exodus/amazon-cognito-identity-js': '@exodus/amazon-cognito-identity-js',
-	analytics: '@aws-amplify/analytics',
+	analytics: '@exodus/aws-amplify_analytics',
 	api: '@exodus/aws-amplify_api',
 	auth: '@exodus/aws-amplify_auth',
 	'@exodus/aws-amplify': '@exodus/aws-amplify',
