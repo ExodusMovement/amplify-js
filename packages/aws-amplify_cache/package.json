@@ -1,6 +1,6 @@
 {
   "name": "@exodus/aws-amplify_cache",
-  "version": "5.0.32-exodus.1",
+  "version": "5.0.32-exodus.2",
   "description": "Cache category of aws-amplify",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
