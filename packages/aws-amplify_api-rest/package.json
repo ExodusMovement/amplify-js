@@ -1,6 +1,6 @@
 {
   "name": "@exodus/aws-amplify_api-rest",
-  "version": "3.1.0-exodus.1",
+  "version": "3.1.0-exodus.2",
   "description": "Api-rest category of aws-amplify",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",

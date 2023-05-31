@@ -1,6 +1,6 @@
 {
 	"name": "@exodus/aws-amplify_notifications",
-	"version": "1.1.6-exodus.1",
+	"version": "1.1.6-exodus.2",
 	"description": "Notifications category of aws-amplify",
 	"main": "./lib/index.js",
 	"module": "./lib-esm/index.js",
