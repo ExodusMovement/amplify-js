@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@exodus/react-native-async-storage';
 
 const MEMORY_KEY_PREFIX = '@MemoryStorage:';
 let dataMemory = {};
